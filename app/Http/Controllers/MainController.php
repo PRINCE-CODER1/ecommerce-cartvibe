@@ -14,9 +14,6 @@ use Laravel\Socialite\Facades\Socialite;
 
 class MainController extends Controller
 {
-    public function googleLogin(){
-        return Socialite::driver('google')->redirect();
-    }
     public function index(){
         $allproducts = Product::all();
         $newArrival = Product::where('type','new-arrivals')->get();

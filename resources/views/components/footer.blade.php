@@ -1,11 +1,11 @@
   <!-- Footer Section Begin -->
   <footer class="footer">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <a href="#"><img src="{{asset('img/footer-logo.png')}}" alt=""></a>
+                        <a href="#"><img width="100px" src="{{asset('img/logo_transparent.png')}}" alt=""></a>
                     </div>
                     <p>The customer is at the heart of our unique business model, which includes design.</p>
                     <a href="#"><img src="{{asset('img/payment.png')}}" alt=""></a>
@@ -53,9 +53,9 @@
                     <p>Copyright ©
                         <script>
                             document.write(new Date().getFullYear());
-                        </script>2020
-                        All rights reserved | This template is made with <i class="fa fa-heart-o"
-                        aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </script>
+                        All rights reserved | This is made with <i class="fa fa-heart-o"
+                        aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Prince</a>
                     </p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>

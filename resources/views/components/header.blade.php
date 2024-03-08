@@ -74,9 +74,6 @@
                     </div>
                     <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
-                            <div class="header__top__links">
-                                <a href="#">Sign in</a>
-                            </div>
                             <div class="header__top__hover">
                                 <span>Usd <i class="arrow_carrot-down"></i></span>
                                 <ul>
@@ -91,10 +88,10 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="{{asset('img/logo.png')}}" alt=""></a>
+                        <a href="{{url('/')}}"><img class="img-fluid" width="100px" src="{{asset('img/logo_transparent.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -124,8 +121,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
-                        <a href="#" class="search-switch"><img src="{{asset('img/icon/search.png')}}" alt=""></a>
-                        <a href="#"><img src="{{asset('img/icon/heart.png')}}" alt=""></a>
+                        <a class="search-switch"><img src="{{asset('img/icon/search.png')}}" alt=""></a>
                         <a href="{{url('/cart')}}"><img src="{{asset('img/icon/cart.png')}}" alt=""></a>
                     </div>
                 </div>
